@@ -1,0 +1,37 @@
+{
+  "positiveSentiment": {
+    "text": "This is amazing",
+    "sentimentScore": "positive (+1.00)",
+    "magnitude": "1.00"
+  },
+  "negativeSentiment": {
+    "text": "I hate this experience!",
+    "sentimentScore": "negative (-0.49)",
+    "magnitude": "0.59"
+  },
+  "neutralSentiment": {
+    "text": "This is my laptop for personal use.",
+    "sentimentScore": "neutral (+0.12)",
+    "magnitude": "0.51"
+  },
+  "mixedSentiment": {
+    "text": "I like the design but not the colour.",
+    "sentimentScore": "negative (-0.55)",
+    "magnitude": "0.77"
+  },
+  "textWithSpecial": {
+    "text": "Love this! 😊👍",
+    "sentimentScore": "positive (+0.70)",
+    "magnitude": "1.12"
+  },
+  "multilingualSentiment": {
+    "text": "Je déteste ça",
+    "sentimentScore": "negative (-0.55)",
+    "magnitude": "0.69"
+  },
+  "textWithSarcasm": {
+    "text": "Oh great, another delay!",
+    "sentimentScore": "negative (-0.59)",
+    "magnitude": "0.72"
+  }
+}

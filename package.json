@@ -1,0 +1,17 @@
+{
+  "name": "qa-cypress-task",
+  "version": "1.0.0",
+  "description": "A task to setup cypress tests to test ML models",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --headed"
+  },
+  "keywords": [
+    "qa-automation"
+  ],
+  "author": "Veera N",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}

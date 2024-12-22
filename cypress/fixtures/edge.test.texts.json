@@ -1,0 +1,24 @@
+{
+  "onlySpecialCharacters": {
+    "text": "@#$%^&*@#$%^&*@#$%^&*",
+    "error": "Validation error. Text is too short!"
+  },
+
+  "emptyText": {
+    "text": "",
+    "error": "Text is too short, more than 5 characters is required!"
+  },
+  "textWithMinimumLength": {
+    "text": "Sure",
+    "error": "Text is too short, more than 5 characters is required!"
+  },
+  "textWithMaximumLength": {
+    "text": "<LargeText>",
+    "error": "A part of text will trimmed as it's too large"
+  },
+  "textWithSingleWord": {
+    "text": "Interesting",
+    "sentimentScore": "positive (+0.74)",
+    "magnitude": "0.99"
+  }
+}
