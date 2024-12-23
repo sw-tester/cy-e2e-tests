@@ -65,7 +65,7 @@ https://text2data.com/Demo/
 **How to execute**
 ```
   #Setup by cloning  
-  git clone https://github.com/okuli/QA-Engineer-Task 
+  git clone https://github.com/sw-tester/cy-e2e-tests.git
   cd ./cy-e2e-tests
   
   #To install neccessary dependencies
