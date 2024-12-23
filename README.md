@@ -1,4 +1,4 @@
-# QA-Engineer-Task
+# cy-e2e-tests
 
 **Introduction**
 
@@ -66,7 +66,7 @@ https://text2data.com/Demo/
 ```
   #Setup by cloning  
   git clone https://github.com/okuli/QA-Engineer-Task 
-  cd ./QA-Engineer-Task
+  cd ./cy-e2e-tests
   
   #To install neccessary dependencies
   npm install
