@@ -34,7 +34,7 @@ describe('boundary and edge tests', () => {
 
   it('should handle text more than maximum length', function () {
     cy.analysisSentiment(this.edgeTestTexts.textWithMaximumLength.text);
-    cy.verifyErrorOutput(this.edgeTestTexts.textWithMaximumLength.error);
+    cy.get('#textArea').invoke('val').should('have.length.lte', this.edgeTestTexts.textWithMaximumLength.maxLength);
   });
 
 });
